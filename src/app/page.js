@@ -8,13 +8,13 @@ export default function Home() {
 
       <h2 className='text-gray-200 font-sans text-3xl font-bold m-5 px-10'>URL Transformations: </h2>
       <div className="flex justify-evenly w-full mb-8">
-        <a href="/url-to-qr" className="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 ease-in duration-200">
+        <a href="/url-to-qr" className="w-40 h-12 py-3 text-center bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 ease-in duration-200">
           <h4>URL to QR Code</h4>
         </a>
-        <a href="/url-to-bar" className="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 ease-in duration-200">
+        <a href="/url-to-bar" className="w-40 h-12 py-3 text-center bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 ease-in duration-200">
           <h4>URL to Barcode</h4>
         </a>
-        <a href="/url-shortener" className="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 ease-in duration-200">
+        <a href="/url-shortener" className="w-40 h-12 py-3 text-center bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 ease-in duration-200">
           <h4>URL Shortener</h4>
         </a>
       </div>
@@ -23,14 +23,14 @@ export default function Home() {
 
       <h2 className='text-gray-200 font-sans text-3xl font-bold m-5 px-10'>Text Transformations: </h2>
       <div className="flex justify-evenly w-full mb-8">
-        <a href="/text-minifier" className="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 ease-in duration-200">
+        <a href="/text-minifier" className="w-40 h-12 py-3 text-center bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 ease-in duration-200">
           <h4>Text Minifier</h4>
         </a>
-        <a href="/text-stats" className="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 ease-in duration-200">
+        <a href="/text-stats" className="w-40 h-12 py-3 text-center bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 ease-in duration-200">
           <h4>Text Statistics</h4>
         </a>
-        <a href="/url-shortener" className="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 ease-in duration-200">
-          <h4>URL Shortener</h4>
+        <a href="/text-transform" className="w-40 h-12 py-3 text-center bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 ease-in duration-200">
+          <h4>Text Transform</h4>
         </a>
       </div>
     </div>
