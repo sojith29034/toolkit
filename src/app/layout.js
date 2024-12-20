@@ -14,7 +14,7 @@ export default function Layout({ children }) {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Transformers</title>
+        <title>Tool Kit</title>
       </head>
       <body className="bg-zinc-800 min-h-screen">
         {showNavbar && <Navbar />}
